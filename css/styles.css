@@ -1,0 +1,15 @@
+<!-- File created by Maxime Malot, 2022 -->
+#div1 {
+    height: 200px;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: cyan;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+#mapdiv {
+	height: 500px;
+	width: auto;
+}

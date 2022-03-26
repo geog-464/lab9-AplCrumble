@@ -9,14 +9,27 @@
 		<link rel="stylesheet" href="css/styles.css">
         
 		<!--you can also place internal styles here; you would place these within <style> tags-->
-    </head>
+		<script type="text/javascript" src="data/megacities.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
 
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    </head>
+		
     <body>
         <!--put your initial page content here-->
-		
+		<div id="div1">
+	This is inside basic html container
+	<p>This is text contained inside of a standard easily-stylable tag</p>
+	<p>[Q2] The JS script is loaded at the end of the html file since the document also contains contextual information about the web page, while the css stylesheet only contains style information.</p>
+	<p>[Q3] The onload method is calling the initialize function. It is good to load javascript this way since it calls the function after all the other page elements are loaded, such as the css or other contextual files.</p>
+	<p>[Q4] The data type of 'cityPop' is a simple object that is structured as an array. It contains a list of items with their corresponding values. An object coded this way in javascript resembles a dictionary data type native to Python.</p>
+	 	<div id="mapdiv">
+</div>
         <!--you can also use this space for internal scripts; you would place these within <script> tags-->
-
+		<script 
+		></script>
         <!--put your external script links here-->
+
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
