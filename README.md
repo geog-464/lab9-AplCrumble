@@ -34,6 +34,8 @@ Like when adding your name to a map you've created, it's good to add your name t
 
 - 📝 [Q1] [Comment out](https://coder-coder.com/comment-in-html-css-javascript/) the first line of both your js and css files and inside this comment notation, add that the file was created by YOUR NAME, followed by the YEAR.
 
+<!-- File created by Maxime Malot, 2022 --> 
+
 # Understanding JavaScript DOM manipulation
 
 - On line 16 of your html file, paste the following:
